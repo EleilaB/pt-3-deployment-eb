@@ -1,9 +1,9 @@
-#header {
+h1.dark-green {
     color: rgb(6, 99, 6);
     align-self: center;
 };
 
-p {
+p.yellow-green {
     color: rgb(118, 173, 8);
     align-self: center;
 };
