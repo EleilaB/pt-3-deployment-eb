@@ -1,9 +1,9 @@
 #header {
     color: rgb(6, 99, 6);
-    align-self: auto;
+    align-self: center;
 };
 
-#subheader {
+p {
     color: rgb(118, 173, 8);
-    align-self: auto;
+    align-self: center;
 };
