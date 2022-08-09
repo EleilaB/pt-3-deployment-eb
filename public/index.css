@@ -1,11 +1,41 @@
 body {
     font-family: 'Edu QLD Beginner', cursive;
     color: rgb(3, 61, 3);
-};
+}
 
-h1 {
+#border {
+    display: block;
+    background-color: rgb(212, 181, 140);
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+}
+
+#header {
     display: flex;
     margin: 20px;
     margin-bottom: 10px;
     justify-content: center;
-};
+    font-weight: bold;
+    font-size: 200%;
+    color: rgb(3, 61, 3);
+}
+
+#subheader {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-size: 150%;
+    color: rgb(3, 61, 3);
+}
+
+p.info {
+    display: flex;
+    margin: 5px;
+    align-self: center;
+}
