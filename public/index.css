@@ -1,3 +1,12 @@
+html {
+    min-height: 100%;
+    background-color: rgb(3, 168, 3);
+    background-image: url("images/amazon-rainforest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 body {
     font-family: 'Edu QLD Beginner', cursive;
     color: rgb(3, 61, 3);
@@ -7,8 +16,12 @@ body {
     display: block;
     background-color: rgb(212, 181, 140);
     border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
     border-color: black;
     justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 100px;
@@ -34,8 +47,71 @@ body {
     color: rgb(3, 61, 3);
 }
 
-p.info {
+#info-start {
     display: flex;
     margin: 5px;
-    align-self: center;
+    padding-bottom: 10px;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(3, 61, 3);
+}
+
+#info-1, #info-2, #info-3 {
+    display: flex;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    justify-content: center;
+    text-indent: 20px;
+}
+
+#attention {
+    display: flex;
+    margin: 5px;
+    padding: 20px;
+    padding-bottom: 30px;
+    justify-content: center;
+    font-size: 150%;
+    color: rgb(3, 61, 3);
+}
+
+#call-to-action-1, #call-to-action-2 {
+    display: flex;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#links-1, #links-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+#link {
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(3, 168, 3);
+    background-color: rgb(197, 241, 188);
+    color: rgb(3, 61, 3);
+}
+
+#source {
+    display: flex;
+    margin: 15px;
+    justify-content: right;
+    color: rgb(3, 61, 3);
+    text-decoration: underline;
 }
